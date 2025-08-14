@@ -11,7 +11,9 @@ li {
   float: left;
   padding :33px 10px;
     font-size:15px;
+    color:rgb(8, 10, 8);
 }
+
 
 .header {
   background-color: #26d0c9;
