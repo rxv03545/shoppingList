@@ -49,6 +49,7 @@ li {
 .section-title {
   border-bottom: 5px solid #055b34;
   padding-bottom: 10px;
+  padding-left:10px;
   margin-bottom : 20px;
   font-size: 24px
 }
