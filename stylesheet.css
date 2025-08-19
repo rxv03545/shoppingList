@@ -1,9 +1,14 @@
+
+
+
 .title {
   color: #1d02cc;
 }
 
 body {
   font-family: "Avenir Next";
+  margin:0;
+  padding:0
 }
 
 li {
