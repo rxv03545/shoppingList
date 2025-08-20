@@ -55,6 +55,7 @@ li {
 }
 
 
+
 .contents-item {
     height: 200px;
   float :left;
@@ -86,7 +87,7 @@ li {
   color:#fff;
   
   /* heightを120pxに変更してください */
-  height: 120px;
+  height: 80px;
   /* 上下左右のpaddingを40pxにしてください */
   padding: 40px;
   
