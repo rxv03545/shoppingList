@@ -54,7 +54,9 @@ li {
   font-size: 24px
 }
 
-
+.contact-form {
+  padding-left:10px;
+}
 
 .contents-item {
     height: 200px;
