@@ -36,11 +36,11 @@ li {
 
 .main {
   background-color: #bdf7f1;
-  height: 850px;
+  height: 1200px;
 }
 
 .contents {
-  height: 500px;
+  height: 800px;
   margin-top:20px;
 
 }
@@ -59,6 +59,9 @@ li {
 }
 
 .contents-item {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
     height: 200px;
   float :left;
   margin-right : 30px;
@@ -89,7 +92,7 @@ li {
   color:#fff;
   
   /* heightを120pxに変更してください */
-  height: 80px;
+  height: 100px;
   /* 上下左右のpaddingを40pxにしてください */
   padding: 40px;
   
