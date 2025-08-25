@@ -123,3 +123,64 @@ li {
 .footer-list li{
   padding-bottom:20px;
 }
+
+.btn {
+  background: repeating-linear-gradient(30deg, #45d5dd, #c4f309 20%);
+  border: none;
+  color: rgb(245, 247, 243);
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: ;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  box-shadow:4px 10px 20px rgba(0, 0, 0, 0.6);
+  transition: transform 0.5s;
+}
+
+.btn:hover {
+  transform: scale(2, 0.5);
+  
+}
+
+.btn2 {
+  background: repeating-radial-gradient(circle, rgb(99, 7, 228), #da7e0d);
+  border: none;
+  color: rgb(245, 247, 243);
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  box-shadow:4px 10px 20px rgba(0, 0, 0, 0.6);
+  transition: transform 0.5s;
+}
+
+.btn2:hover {
+  transform: rotate(2turn);
+}
+
+.btn3 {
+  background: conic-gradient(from 180deg, #9a5109, #d616b0);
+  border: none;
+  color: rgb(245, 247, 243);
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  box-shadow:4px 10px 20px rgba(0, 0, 0, 0.6);
+  transition: transform 0.5s;
+}
+
+.btn3:hover {
+  transform: skew(30deg ,20deg);
+}
