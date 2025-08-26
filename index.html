@@ -129,7 +129,33 @@
       <div class="contact-form">
        <div class="section-title">なにか聞きたいことある？</div>
        <p> お気軽にお問い合わせください。</p>
-       <p> メールアドレス（必須）</p>
+       名前(非必須):<input type="text" placeholder="名字 名前" >
+       電話(非必須):<input type="tel" placeholder="090-1234-5678">
+       性別(非必須):<input type="radio" name="gender" value="male" placeholder="男性">男性
+                  <input type="radio" name="gender" value="female" placeholder="女性" checked>女性
+       <p>好きな色(非必須):</p>
+                     <input type="checkbox" name="color" value="赤" id="red" checked>
+                     <label for="red">赤</label>
+                     <input type="checkbox" name="color" value="青" id="blue">
+                     <label for="blue">青</label>
+                     <input type="checkbox" name="color" value="黄" id="yellow">
+                     <label for="yellow">黄</label>
+                     <input type="checkbox" name="color" value="緑" id="green">
+                     <label for="green">緑</label>
+                     <input type="checkbox" name="color" value="黒" id="black">
+                     <label for="black">黒</label>
+                     <input type="checkbox" name="color" value="白" id="white">
+                     <label for="white">白</label>
+
+        <p>好きな時代(非必須):</p>
+                    <select name="era">
+                     <option value="古代">古代</option>
+                     <option value="中世">中世</option>
+                     <option value="近世">近世</option>
+                     <option value="近代">近代</option>
+                     <option value="現代" selected>現代</option>
+                     </select>
+        <p> メールアドレス（必須）</p>
        <input type="email" required> 
        <p> 問い合わせ内容（必須）</p>
        <textarea required class="textarea-class" rows="3" cols="30"></textarea>
