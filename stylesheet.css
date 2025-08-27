@@ -1,9 +1,7 @@
 
 
 
-.title {
-  color: #1d02cc;
-}
+
 
 body {
   font-family: "Avenir Next";
@@ -12,10 +10,16 @@ body {
 }
 
 
-
+ul {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  align-content:space-around;
+}
 
 
 li {
+
   list-style: georgian inside;
   float: left;
   padding :10px 10px;
@@ -33,9 +37,10 @@ li {
 
 .header-logo {
   float: left;
-  font-size: 36px;
-  padding: 20px 0px;
+  font-size: 60px;
+  padding: 45px 10px;
   color : #74dc0c;
+  font-weight:bold;
 }
 
 .main {
